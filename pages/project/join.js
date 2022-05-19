@@ -1,0 +1,66 @@
+import React from "react";
+
+function Join() { 
+    return (
+         <div>
+        <div>
+          <h3 id='signup_title'> 회원가입</h3>
+        </div>
+        <div className='Signup'>
+          <div>
+            <div>
+              <h5> 아이디 </h5>
+              <input type='text' maxLength='20' name='signup_id'/>
+            </div>
+
+            <div>
+              <h5> 비밀번호 </h5>
+              <input type='password' maxLength='15' name='signup_password'/>
+            </div>
+
+            <div>
+              <h5> 비밀번호 확인 </h5>
+              <input type='password' maxLength='15' name='signup_pswCheck'/>
+            </div>
+          </div>
+
+          <div id='signup_section'>
+            <div>
+              <h5> 이름 </h5>
+              <input type='text' maxLength='10' name='signup_name'/>
+            </div>
+            <div>
+              <h5> 닉네임 </h5>
+              <input type='text' maxLength='10' name='signup_name'/>
+            </div>
+
+            <div>
+              <h5> 생년월일 </h5>
+              <input type='text' maxLength='6' name='signup_birthday'/> - 
+              <input type='text' maxLength='1' name='signup_sex'/> ******
+            </div>
+            <div>
+              <h5> 전화번호 </h5>
+              <input type='text' maxLength='3' name='signup_phone'/> - 
+              <input type='text' maxLength='4' name='signup_phone'/> - 
+              <input type='text' maxLength='4' name='signup_phone'/> 
+            </div>
+            <div>
+              <h5> 이메일 </h5>
+              <input type='text' maxLength='15' name='signup_email'/> @
+              <select name='signup_email_select'>
+                <option value='gmail.com'> gmail.com </option>
+                <option value='naver.com'> naver.com </option>
+                <option value='write'> 직접 입력 </option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <input type='button' value='가입하기' name='sigunup_submit'/>
+        </div>
+      </div>
+    )
+}
+export default Join;
