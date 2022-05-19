@@ -13,7 +13,7 @@ function Change(){
               <h5>수정 PW </h5>
             <input type='text' placeholder="수정pw" maxLength='10' name='after_pw' />
             <h5>수정 PW 확인 </h5>
-              <input type='text' maxLength='10' name='check_after_pw'/>
+              <input type='text' placeholder="수정pw 확인" maxLength='10' name='check_after_pw'/>
             </div>
 
             <div>

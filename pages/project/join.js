@@ -10,24 +10,24 @@ function Join() {
           <div>
             <div>
               <h5> 아이디 </h5>
-              <input type='text' maxLength='20' name='signup_id'/>
+              <input placeholder="아이디" type='text' maxLength='20' name='signup_id'/>
             </div>
 
             <div>
               <h5> 비밀번호 </h5>
-              <input type='password' maxLength='15' name='signup_password'/>
+              <input placeholder="비밀번호" type='password' maxLength='15' name='signup_password'/>
             </div>
 
             <div>
               <h5> 비밀번호 확인 </h5>
-              <input type='password' maxLength='15' name='signup_pswCheck'/>
+              <input placeholder="비밀번호 확인" type='password' maxLength='15' name='signup_pswCheck'/>
             </div>
           </div>
 
           <div id='signup_section'>
             <div>
               <h5> 이름 </h5>
-              <input type='text' placeholder="이름" maxLength='10' name='signup_name'/>
+              <input  type='text' placeholder="이름" maxLength='10' name='signup_name'/>
             </div>
             <div>
               <h5> 닉네임 </h5>
