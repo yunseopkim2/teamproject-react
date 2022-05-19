@@ -6,11 +6,11 @@ function Remove() {
             <h2>CLOZET 회원탈퇴</h2>
             <div>
                 <label htmlFor='input_id'>비밀번호 : </label>
-                <input type='text' name='input_id'   />
+                <input  placeholder="비밀번호" type='text' name='input_id'   />
             </div>
             <div>
                 <label htmlFor='input_pw'>비밀번호확인 : </label>
-                <input type='password' name='input_pw'  />
+                <input placeholder="비밀번호 확인" type='password' name='input_pw'  />
              </div>
              <h3>탈퇴시 주의사항</h3>
             <h4> 1. 회원 탈퇴 후 5일 이내 재 로그인 시 탈퇴 취소가 가능합니다.</h4>
