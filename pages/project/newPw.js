@@ -2,7 +2,7 @@ import React from "react";
 
 function NewPw() {
     return (<div>
-            <h3 id='signup_title'> 새로운 비밀번호 발급</h3>
+            <h3 id='signup_title'>CLOZET 새로운 비밀번호 발급</h3>
         <div>
             <label htmlFor='input_pw'>비밀번호 : </label>
             <input type='password' name='input_pw' />

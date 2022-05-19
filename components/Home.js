@@ -5,12 +5,13 @@ import FindId from "../pages/project/findId"
 import NewPw from "../pages/project/newPw"
 import FindPw from "../pages/project/findPw"
 import Change from "../pages/project/change"
+import Remove from "../pages/project/remove"
 export function Home() {
     return (
         <>
             <Login /><FindId/><NewPw/>
             <Join /><FindPw />
-            <Change/>
+            <Change/><Remove/>
 
 </>
     )

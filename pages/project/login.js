@@ -3,7 +3,7 @@ import React from "react";
 function Login() {
      return(
         <div>
-            <h2>로그인</h2>
+            <h2>CLOZET 로그인</h2>
             <div>
                 <label htmlFor='input_id'>아이디 : </label>
                 <input type='text' name='input_id'   />

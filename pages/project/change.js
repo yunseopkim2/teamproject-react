@@ -2,51 +2,48 @@ import React from "react";
 
 function Change(){
     return (<>
-     <h3 >회원정보수정 </h3> 
-       <table border="1">
-      <thead>
-        <tr>
-          <th>사진</th>
-                    <th>image: 
-                         회원님을 알릴 수 있는 사진을 등록해 주세요.
-                        등록된 사진은 회원님의 게시물이나 댓글들에 사용됩니다.
-                    </th>
-          <th><button type='button'>사진 변경</button></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th>아이디</th>
-          <td>정보</td>
-          <td><button type='button'>아이디 변경</button></td>
-        </tr>
-        <tr>
-          <th>비밀번호</th>
-          <td>정보</td>
-          <td><button type='button'>비밀번호 변경</button></td>
-        </tr>
-        <tr>
-          <th>이름(실명)</th>
-          <td>정보</td>
-          <td><button type='button'>이름수정</button></td>
-                </tr>
-                <tr>
-          <th>닉네임</th>
-          <td>정보</td>
-          <td><button type='button'>닉네임 변경</button></td>
-                </tr>
-                <tr>
-          <th>이메일</th>
-          <td>정보</td>
-          <td><button type='button'>이메일 변경</button></td>
-                </tr>
-                <tr>
-          <th>전화번호</th>
-          <td>정보</td>
-          <td><button type='button'>전화번호 변경</button></td>
-        </tr>
-      </tbody>
-    </table>
+     <h3 >CLOZET 회원정보수정 </h3> 
+       <div>
+          <div id='signup_section'>
+            <div>
+              <h5>현재 PW </h5>
+              <input type='text' maxLength='10' name='before_pw'/>
+          </div>
+          <div>
+              <h5>수정 PW </h5>
+            <input type='text' maxLength='10' name='after_pw' />
+            <h5>수정 PW 확인 </h5>
+              <input type='text' maxLength='10' name='check_after_pw'/>
+            </div>
+
+            <div>
+              <h5>수정 닉네임</h5>
+            <input type='text' maxLength='6' name='after_nickname' />
+                <button type='button'>중복확인</button>
+                        </div>
+            <div>
+              <h5> 전화번호 변경 </h5>
+              <input type='text' maxLength='3' name='signup_phone'/> - 
+              <input type='text' maxLength='4' name='signup_phone'/> - 
+              <input type='text' maxLength='4' name='signup_phone'/> 
+            </div>
+            <div>
+              <h5> 변경 이메일 </h5>
+              <input type='text' maxLength='15' name='signup_email'/> @
+              <select name='signup_email_select'>
+                <option value='gmail.com'> gmail.com </option>
+                <option value='naver.com'> naver.com </option>
+                <option value='write'> 직접 입력 </option>
+                        </select>
+                <button type='button'>인증번호 전송</button>
+            <input type='text' maxLength='4' name='checkpw'/> <button type='button'>인증번호 확인</button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <input type='button' value='수정하기' name='sigunup_submit'/>
+          <input type='button' value='회원탈퇴' name='sigunup_submit'/>
+        </div>
         </>
     
 

@@ -4,7 +4,7 @@ function Join() {
     return (
          <div>
         <div>
-          <h3 id='signup_title'> 회원가입</h3>
+          <h3 id='signup_title'>CLOZET 회원가입</h3>
         </div>
         <div className='Signup'>
           <div>
@@ -33,6 +33,14 @@ function Join() {
               <h5> 닉네임 </h5>
               <input type='text' maxLength='10' name='signup_name'/>
             </div>
+             <div>
+              <h5> 키 </h5>
+              <input type='text' maxLength='10' name='height'/>
+            </div>
+             <div>
+              <h5> 몸무게 </h5>
+              <input type='text' maxLength='10' name='weight'/>
+            </div>
 
             <div>
               <h5> 생년월일 </h5>
@@ -53,7 +61,9 @@ function Join() {
                 <option value='naver.com'> naver.com </option>
                 <option value='write'> 직접 입력 </option>
               </select>
-            </div>
+               <button type='button'>인증번호 전송</button>
+                             <input type='text' maxLength='4' name='checkpw'/> <button type='button'>인증번호 확인</button>
+                     </div>
           </div>
         </div>
 

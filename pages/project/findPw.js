@@ -3,7 +3,7 @@ import React from "react";
 function FindPw() { 
     return (
       <div>
-            <h3 id='signup_title'> 비밀번호 찾기</h3>
+            <h3 id='signup_title'>CLOZET 비밀번호 찾기</h3>
         <div>
           <div id='signup_section'>
             <div>
@@ -33,8 +33,10 @@ function FindPw() {
                 <option value='naver.com'> naver.com </option>
                 <option value='write'> 직접 입력 </option>
                         </select>
-                <button type='button'>인증번호 전송</button>
+              <button type='button'>인증번호 전송</button>
+              
             </div>
+            <input type='text' maxLength='4' name='checkpw'/><button type='button'>인증번호 확인</button>
           </div>
         </div>
         <div>
