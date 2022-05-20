@@ -6,13 +6,12 @@ import NewPw from "../pages/project/newPw"
 import FindPw from "../pages/project/findPw"
 import Change from "../pages/project/change"
 import Remove from "../pages/project/remove"
+import Board from "../pages/project/board"
 export function Home() {
     return (
         <>
             <Login /><FindId/><NewPw/>
-            <Join /><FindPw />
-            <Change/><Remove/>
-
+            <Board/>
 </>
     )
 }
